@@ -1,6 +1,6 @@
 import mido
 
-class GeneratorReadMidi:
+class MidiHandler:
     def __init__(self):
         pass
 
