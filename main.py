@@ -1,4 +1,4 @@
-import generatorReadMidi
+import midiHandler
 
 def main():
     pass
