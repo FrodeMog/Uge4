@@ -4,8 +4,10 @@ class FakerHandler:
 
     def readCSV(self, file_path):
         try:
-            with open(file_path, 'r') as f:
-                return f.readlines()
+            file = open(file_path, 'r')
+            result = file.read().splitlines()
+            file.close()
+            return result
         except FileNotFoundError as e:
             print(f"Error reading CSV file {file_path}: {e}")
             return None
@@ -25,11 +27,13 @@ class FakerHandler:
         
     def getNameData(self, file_path, name):
         try:
+            file = open(file_path, 'r')
+            lines = file.read().splitlines()
             lines_with_name = []
-            with open(file_path, 'r') as f:
-                for line in f:
-                    if name in line:
-                        lines_with_name.append(line)
+            for line in lines:
+                if name in line:
+                    lines_with_name.append(line)
+            file.close()
             return lines_with_name
         except FileNotFoundError as e:
             print(f"Error reading CSV file {file_path}: {e}")
