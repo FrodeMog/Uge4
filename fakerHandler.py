@@ -52,3 +52,10 @@ class FakerHandler:
             return None
         except Exception as e:
             return e
+    
+    def countNames(self, file_path, name):
+        count = 0
+        lines = self.getNameDataGenerator(file_path, name)
+        for _ in lines:
+            count += 1
+        return count
