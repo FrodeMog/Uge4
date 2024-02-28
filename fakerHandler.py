@@ -1,3 +1,5 @@
+import threading
+
 class FakerHandler:
     def __init__(self):
         pass
@@ -5,9 +7,9 @@ class FakerHandler:
     def readCSV(self, file_path):
         try:
             file = open(file_path, 'r')
-            result = file.read().splitlines()
+            lines = file.read().splitlines()
             file.close()
-            return result
+            return lines
         except FileNotFoundError as e:
             print(f"Error reading CSV file {file_path}: {e}")
             return None
