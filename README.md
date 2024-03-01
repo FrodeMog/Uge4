@@ -1,9 +1,11 @@
-## View notebooks for code runs
-* [notebooks](/notebooks)
+## View `notebooks` for code runs
+* [fakerNotebook](/notebooks/fakerGenerator.ipynb)
+* [midiNotebook](/notebooks/midiGenerator.ipynb)
 
 ## View `handlers` and `utils` for code used
-* [handlers](/handlers)
-* [utils](/utils)
+* [fakerHandler](/handlers/fakerHandler.py)
+* [midiHandler](/handlers/midiHandler.py)
+* [utils](/utils/Utils.py)
 
 ## If you want to install and run yourself
 
@@ -22,6 +24,6 @@
     pip install -r requirements.txt
     ```
 
-5. Install jupyter extension in vscode
+5. Install `jupyter extension` in vscode
 
-6. Run the jupyter notebooks
+6. Run the `jupyter notebooks`
