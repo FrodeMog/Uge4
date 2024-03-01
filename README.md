@@ -1,4 +1,11 @@
-## Installation and Run
+## View notebooks for code runs
+* [notebooks](/notebooks)
+
+## View `handlers` and `utils` for code used
+* [handlers](/handlers)
+* [utils](/utils)
+
+## If you want to install and run yourself
 
 1. Create environment:
     ```
@@ -15,4 +22,6 @@
     pip install -r requirements.txt
     ```
 
-4. Run the jupyter notebooks
+5. Install jupyter extension in vscode
+
+6. Run the jupyter notebooks
