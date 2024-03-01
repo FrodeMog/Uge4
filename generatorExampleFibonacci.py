@@ -20,3 +20,6 @@ print(next(x))
 print(next(x)) 
 print(next(x)) 
 print(next(x)) 
+
+for i in fib(5):
+    print(i)
