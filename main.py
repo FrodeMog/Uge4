@@ -1,5 +1,3 @@
-import midiHandler
-
 def main():
     pass
 
