@@ -26,4 +26,6 @@
 
 5. Install `jupyter extension` in vscode
 
-6. Run the `jupyter notebooks`
+6. Extract `../data/midi/pop.zip` to `../data/midi/pop`
+
+7. Run the `jupyter notebooks`
