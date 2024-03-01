@@ -1,4 +1,4 @@
 .venv
 __pycache__
-data/csv/*.csv
-data/midi/*.mid
+data/csv/**/*.csv
+data/midi/**/*.mid
