@@ -1,5 +1,4 @@
 import mido
-import random
 
 class MidiHandler:
     def __init__(self):
